@@ -46,8 +46,27 @@ int main(void) {
     char f;
 
     printf("int = %d\n",sizeof(a));
+    printf("short int=%d\n",sizeof(b));
+    printf("long int=%d\n",sizeof(c));
+    printf("float=%d\n",sizeof(d));
+    printf("double=%d\n",sizeof(e));
+    printf("char=%d\n",sizeof(f));
 
+    printf("int=%d\n",sizeof(int));
+    printf("short int=%d\n",sizeof(short int));
+    printf("long int=%d\n",sizeof(long int));
+    printf("float=%d\n",sizeof(float));
+    printf("double=%d\n",sizeof(double));
+    printf("char=%d\n",sizeof(char));
     printf("stop=========================整型=========================stop\n");
+
+
+    printf("start=========================常量=========================start\n");
+    int g =  10;
+    printf("整型：%d\n",g);
+    float h = 7.5;
+    printf("浮点型h=%f\n",h);
+    printf("stop=========================常量=========================stop\n");
     return 0;
 
 
