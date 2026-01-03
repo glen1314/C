@@ -33,8 +33,8 @@ int main(void) {
     printf("My favorite number is %d because it is first.\n",num);
 
     printf("start=========================整型=========================start\n");
-    short i = 10;
-    printf("%d\n",i);
+    // short i = 10;
+    // printf("%d\n",i);
 
     int a;
     short int b;
@@ -67,6 +67,20 @@ int main(void) {
     float h = 7.5;
     printf("浮点型h=%f\n",h);
     printf("stop=========================常量=========================stop\n");
+
+    printf("start=========================ASCII=========================start\n");
+    // char ch = ' A';
+    // printf("ch = %d\n",ch);
+    printf("stop=========================ASCII=========================stop\n");
+
+    printf("start=========================变量=========================start\n");
+    /*定义多个变量*/
+    int i ,j;
+    /*变量只能在程序的开头定义，或者说变量定义的前面不能有其他非声明或非定义的语句*/
+    i = 3;
+    printf("i = %d\n",i);
+
+    printf("stop=========================变量=========================stop\n");
     return 0;
 
 
