@@ -92,8 +92,16 @@ int main(void) {
     short age = 20;
     int high = 180;
     float weight = 88.5;
+
+    a = -10;
+    unsigned b1 = 5;
+    if ((a+b1)>0) {
+        printf("Hello\n");
+    }
     printf("stop=========================变量和常量的概念=========================stop\n");
     return 0;
+
+
 
 
 
