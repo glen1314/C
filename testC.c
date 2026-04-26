@@ -97,6 +97,23 @@ int main(void) {
     unsigned b1 = 5;
     if ((a+b1)>0) {
         printf("Hello\n");
+
+        i = 10;
+        printf("%d\n",i);   //%d是输出控制符，d表示十进制，后面的i是输出参数
+
+        int i1 = 10;
+        int i2 = 3;
+        printf("%d,%d\n",i1,i2);
+        printf("i1=%d,i2=%d\n",i1,i2);
+        printf("Hello World!\n");
+
+        //%x：以十六进制形式输出整数
+        int i3 = 47;
+        printf("%x\n",i3);
+        printf("%X\n",i3);
+        printf("%#x\n",i3);
+        printf("%#X\n",i3);
+
     }
     printf("stop=========================变量和常量的概念=========================stop\n");
     return 0;
