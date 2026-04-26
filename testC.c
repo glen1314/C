@@ -113,9 +113,15 @@ int main(void) {
         printf("%X\n",i3);
         printf("%#x\n",i3);
         printf("%#X\n",i3);
-
     }
     printf("stop=========================变量和常量的概念=========================stop\n");
+
+    printf("start=========================scanf=========================start\n");
+    //scanf("输入控制符","输入参数");
+    int i4;
+    scanf("%d",&i4);    //&i4表示变量i4的地址，&是取地址符
+    printf("i4=%d\n",i4);
+    printf("stop=========================scanf=========================stop\n");
     return 0;
 
 
