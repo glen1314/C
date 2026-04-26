@@ -118,9 +118,20 @@ int main(void) {
 
     printf("start=========================scanf=========================start\n");
     //scanf("输入控制符","输入参数");
-    int i4;
-    scanf("%d",&i4);    //&i4表示变量i4的地址，&是取地址符
-    printf("i4=%d\n",i4);
+    // int i4;
+    // printf("请输入i4的值：");
+    // scanf("%d",&i4);    //&i4表示变量i4的地址，&是取地址符
+    // printf("i4=%d\n",i4);
+    //
+    // int i5,i6;
+    // printf("请输入i5,i6的值：");
+    // scanf("%d%d",&i5,&i6);
+    // printf("i5=%d,i6=%d\n",i5,i6);
+
+    char c1,c2,c3;
+    printf("请输入c1,c2,c3的值：");
+    scanf("%c%c%c",&c1,&c2,&c3);
+    printf("c1=%c, c2=%c, c3=%c\n",c1,c2,c3);
     printf("stop=========================scanf=========================stop\n");
     return 0;
 
